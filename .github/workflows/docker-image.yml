@@ -27,8 +27,8 @@ jobs:
         
     - name: Build docker image
       run: |
-        docker build -t  christianjc98/docker-graphql:1.0.1
-        docker build -t  christianjc98/docker-graphql:latest.
+        docker build -t  christianjc98/docker-graphql:1.0.1 .
+        docker build -t  christianjc98/docker-graphql:latest .
     
     - name: Push docker image
       run: |
