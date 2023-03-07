@@ -31,7 +31,7 @@ jobs:
     
     - name: Push docker image
       run: |
-        docker build push christianjc98/docker-graphql:1.0.1
+        docker push christianjc98/docker-graphql:1.0.1
 
     
     
